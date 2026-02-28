@@ -10,6 +10,7 @@ mkdir -p "$BACKUP_ROOT" "$TMP_DIR"
 WEB_HOST="192.168.t.5"
 DNS_HOST="192.168.t.12"
 DB_HOST="192.168.t.7"
+FTP_HOST="172.18.14.t"
 ROUTER_HOST="192.168.t.1"
 REMOTE_USER="backup"  # Need to make this ssh user or use an existing one
 
