@@ -7,11 +7,10 @@ DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 mkdir -p "$BACKUP_ROOT" "$TMP_DIR"
 
 # Replace with actual IPs
-WEB_HOST="192.168.88.10"
-DNS_HOST="192.168.88.10"
-FTP_HOST="192.168.88.10"
-DB_HOST="192.168.88.10"
-ROUTER_HOST="192.168.88.1"
+WEB_HOST="192.168.t.5"
+DNS_HOST="192.168.t.12"
+DB_HOST="192.168.t.7"
+ROUTER_HOST="192.168.t.1"
 REMOTE_USER="backup"  # Need to make this ssh user or use an existing one
 
 # === FUNCTIONS ===
